@@ -7,6 +7,8 @@ namespace WageCalculation // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Employee wage Calculation Program");
+            WageComputation emplWage = new WageComputation();
+            emplWage.CheckEmpIsPresentOrNot();
         }
     }
 }
